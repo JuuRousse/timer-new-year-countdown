@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timer-title {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer-item {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 15px 20px rgba(85, 85, 85, 0.25);
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+  width: 150px;
+}
+
+.digit {
+  font-size: 56px;
+}
+
+.felicitation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.felicitation {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
