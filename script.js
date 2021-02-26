@@ -1,3 +1,40 @@
+document.querySelector('#app').innerHTML = `
+<div class="container">
+<div class="timer-block">
+    <h1 class="timer-title">New Year Countdown</h1>
+    <div class="timer">
+        <div class="timer-item">
+            <div class="wrapper">
+                <div id="days" class="digit">0</div>
+                <div class="unit">days</div>
+            </div>
+        </div>
+        <div class="timer-item">
+            <div id="hours" class="digit">0</div>
+            <div class="unit">hours</div>
+        </div>
+        <div class="timer-item">
+            <div id="minutes" class="digit">0</div>
+            <div class="unit">minutes</div>
+
+        </div>
+        <div class="timer-item">
+            <div id="seconds" class="digit">0</div>
+            <div class="unit">seconds</div>
+        </div>
+    </div>
+</div>
+<div class="felicitation-block hide">
+    <div class="felicitation-wrapper">
+        <div>
+            <img src="./img/6oa.gif" alt="">
+        </div>
+        <h2 class="felicitation show">Happy New Year!</h2>
+    </div>
+</div>
+</div>
+`
+
 const deadline = '2022-01-01 00:0';
 
 function getTimeRemiRemaining(endtime) {
